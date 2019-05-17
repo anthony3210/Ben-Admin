@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-14T16:39:26</date>
+  <millis>1557869966856</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Client Person/Services/Client/Services Create Client</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Services Create Client</property>
+  <property name="description">This is the test suite that houses all of the create client test cases.</property>
+  <property name="id">Test Suites/Client Person/Services/Client/Services Create Client</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:26</date>
+  <millis>1557869966869</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = anthonyanderson - 10.0.0.190</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">anthonyanderson - 10.0.0.190</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:26</date>
+  <millis>1557869966869</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:26</date>
+  <millis>1557869966870</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.0.0.190</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.0.190</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:26</date>
+  <millis>1557869966871</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.0.1</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967062</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Client Person/Services/Client/Services Create Client</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Client Person/Services/Client/Services Create Client</property>
+  <property name="description">This test case verifies that a client can be create, that a 201 is returned, and that a few fields get created.</property>
+  <property name="id">Test Cases/Client Person/Services/Client/Services Create Client</property>
+  <property name="source">\\Users\\anthonyanderson\\Ben-Admin\\Ben-Admin\\Test Cases\\Client Person\\Services\\Client\\Services Create Client.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967085</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>parentClientUUID = ec7052a6-7b02-4110-b0f9-288284956dc2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967085</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>legalClientName = Jimmy</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967085</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientName = Sanders</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967086</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sicCode = 1234</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967086</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientEffectiveDate = 2019-01-01</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967087</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientTerminationDate = 2020-12-31</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967087</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>streetAddressUUID = 11d231c2-5f06-4387-ab4d-09d5ffbfe23c</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967087</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>billingAddressUUID = 11d231c2-5f06-4387-ab4d-09d5ffbfe23c</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967088</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>subDomain = sub</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967088</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>memberUniqueIdentifier = member_uuid</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967088</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>memberEmailCommunication = true</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967089</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>inviteKey = 123</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967090</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>billingContactEmail = anthonytest@test.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967090</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>configurationDemo = false</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967090</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>configurationInActive = false</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967091</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>configurationTemplate = false</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967091</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>primaryContactName = Test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967091</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>primaryContactPhone = 3125551212</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967092</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>primaryContactEmail = anthonytest@test.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967092</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>billingContactName = Test</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967092</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>billingContactPhone = 3125551212</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967093</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>clientUUID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:27</date>
+  <millis>1557869967324</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;Client Person/Services/Client/Services Create Client\&amp;quot;, [\&amp;quot;legalClientName\&amp;quot;:\&amp;quot;Harriet\&amp;quot;, \&amp;quot;clientName\&amp;quot;:\&amp;quot;Sanders\&amp;quot;, \&amp;quot;primaryContactEmail\&amp;quot;:\&amp;quot;hsanderstest@test.com\&amp;quot;, \&amp;quot;parentClientUUID\&amp;quot;:\&amp;quot;ec7052a6-7b02-4110-b0f9-288284956dc2\&amp;quot;, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979369</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/anthonyanderson/Ben-Admin/Ben-Admin/Reports/Client Person/Services/Client/Services Create Client/20190514_163914/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2026b479-1196-4f03-bc28-6ef472494151</property>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979448</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979448</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;Client Person/Services/Client/Services Create Client\&amp;quot;, [\&amp;quot;legalClientName\&amp;quot;:\&amp;quot;Harriet\&amp;quot;, \&amp;quot;clientName\&amp;quot;:\&amp;quot;Sanders\&amp;quot;, \&amp;quot;primaryContactEmail\&amp;quot;:\&amp;quot;hsanderstest@test.com\&amp;quot;, \&amp;quot;parentClientUUID\&amp;quot;:\&amp;quot;ec7052a6-7b02-4110-b0f9-288284956dc2\&amp;quot;, ... ]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979449</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Client Person/Services/Client/Services Create Client</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979449</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Client Person/Services/Client/Services Create Client</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-14T16:39:39</date>
+  <millis>1557869979487</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Client Person/Services/Client/Services Create Client</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

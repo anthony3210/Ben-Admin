@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Services Create Client required fields" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="Services Create Client required fields" tests="1" failures="0" errors="0" time="12" timestamp="2019-05-15 10:19:14" hostname="anthonyanderson - 10.0.0.190" id="Test Suites/Client Person/Services/Client/Services Create Client required fields">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anthonyanderson/Ben-Admin/Ben-Admin/Reports/Client Person/Services/Client/Services Create Client required fields/20190515_101902"/>
+         <property name="logFiles" value="/Users/anthonyanderson/Ben-Admin/Ben-Admin/Reports/Client Person/Services/Client/Services Create Client required fields/20190515_101902/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anthonyanderson - 10.0.0.190"/>
+         <property name="hostAddress" value="10.0.0.190"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Client Person/Services/Client/Services Create Client required fields" classname="Test Cases/Client Person/Services/Client/Services Create Client required fields" status="PASSED">
+         <system-out><![CDATA[2019-05-15 10:19:14 - [TEST_CASE][PASSED] - Test Cases/Client Person/Services/Client/Services Create Client required fields: Test Cases/Client Person/Services/Client/Services Create Client required fields
+
+2019-05-15 10:19:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Client Person/Services/Client/V1/CLIENT", ["legalClientName":legalClientName, "clientName":clientName, "primaryContactEmail":"hsanderstest@test.com", "parentClientUUID":parentClientUUID, ... ])): Send request successfully
+
+2019-05-15 10:19:27 - [MESSAGE][INFO] - HAR: /Users/anthonyanderson/Ben-Admin/Ben-Admin/Reports/Client Person/Services/Client/Services Create Client required fields/20190515_101902/requests/main/0.har
+
+2019-05-15 10:19:27 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-15 10:19:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-05-15 10:19:27 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-15 10:19:14 - [TEST_SUITE][PASSED] - Services Create Client required fields: Test Cases/Client Person/Services/Client/Services Create Client required fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

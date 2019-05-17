@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Services Create Client,,This is the test suite that houses all of the create client test cases.,2019-05-14 16:39:26,2019-05-14 16:39:39,12.631s,PASSED
+,,,,,,
+Test Cases/Client Person/Services/Client/Services Create Client,,"This test case verifies that a client can be create, that a 201 is returned, and that a few fields get created.",2019-05-14 16:39:27,2019-05-14 16:39:39,12.387s,PASSED
+"sendRequest(findTestObject(""Client Person/Services/Client/Services Create Client"", [""legalClientName"":""Harriet"", ""clientName"":""Sanders"", ""primaryContactEmail"":""hsanderstest@test.com"", ""parentClientUUID"":""ec7052a6-7b02-4110-b0f9-288284956dc2"", ... ]))",,,2019-05-14 16:39:27,2019-05-14 16:39:39,12.124s,PASSED
